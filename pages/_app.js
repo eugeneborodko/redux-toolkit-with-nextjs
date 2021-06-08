@@ -9,3 +9,5 @@ function MyApp({ Component, pageProps }) {
 
 // export default withRedux(makeStore)(MyApp)
 export default createWrapper(makeStore).withRedux(MyApp)
+
+//test commit
